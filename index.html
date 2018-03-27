@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,9 +11,10 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 
-    
-    
+
+
 </head>
+
 <body>
     <h1 class="center flow-text size">Reportar enfermedades</h1>
     <div class="container color">
@@ -36,9 +38,9 @@
                         <label>
                             <input type="checkbox" class="checked">
                             <span>Fiebre</span>
-                        <p class="range-field">
-                            <input type="range" id="test5" min="0" max="100" />
-                        </p>
+                            <p class="range-field">
+                                <input type="range" id="test5" min="0" max="100" />
+                            </p>
                         </label>
                     </div>
                     <div class="col s12 m6 l6">
@@ -72,38 +74,51 @@
                     </div>
                 </div>
                 <div class="row">
-                        <div class="col s12 m6 l6">
-                            <label>
-                                <input type="checkbox" class="checked">
-                                <span>Vomitos</span>
-                                <p class="range-field">
-                                    <input type="range" id="test5" min="0" max="100" />
-                                </p>
-                            </label>
-                        </div>
-                        <div class="col s12 m6 l6">
-                            <label>
-                                <input type="checkbox" class="checked">
-                                <span>Fatiga</span>
-                                <p class="range-field">
-                                    <input type="range" id="test5" min="0" max="100" />
-                                </p>
-                            </label>
-                        </div>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        
-                        <div class="input-field col s12 l12 m12 marginBottom">
-                            <textarea id="textarea2" class="materialize-textarea" data-length="120"></textarea>
-                            <label for="textarea2" id="textarea2">Describe lo que sientes:</label>
-                        </div>
-                        <button class="btn waves-effect waves-light right noMayusculas marginRight col s6 l2 m6" type="submit" name="action">
-                            <a><i class="material-icons right">send</i>Enviar</a>
-                        </button>
+                    <div class="col s12 m6 l6">
+                        <label>
+                            <input type="checkbox" class="checked">
+                            <span>Vomitos</span>
+                            <p class="range-field">
+                                <input type="range" id="test5" min="0" max="100" />
+                            </p>
+                        </label>
+                    </div>
+                    <div class="col s12 m6 l6">
+                        <label>
+                            <input type="checkbox" class="checked">
+                            <span>Fatiga</span>
+                            <p class="range-field">
+                                <input type="range" id="test5" min="0" max="100" />
+                            </p>
+                        </label>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="input-field col s12 l12 m12 marginBottom">
+                        <textarea id="textarea2" class="materialize-textarea" data-length="120"></textarea>
+                        <label for="textarea2" id="textarea2">Describe lo que sientes:</label>
+                    </div>
+                   
                 </div>
+                <div class="row">
+                    <h3>Reserva tu cita:</h3>
+                    <br>
+                    <div class="col l6 light-blue darken-3">
+                        <input type="text" class="datepicker" placeholder="Fecha" >
+                    </div>
+                    <div class="col l6 light-blue darken-3 Borde">
+                        <input type="text" class="timepicker" placeholder="Hora" >
+                    </div>
+                    
+                </div>
+                <button class="btn waves-effect waves-light right noMayusculas marginRight col s6 l2 m6" type="submit" name="action">
+                    <a>
+                        <i class="material-icons right">send</i>Enviar
+                    </a>
+                </button>
             </form>
         </div>
     </div>
@@ -113,4 +128,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/js/materialize.min.js"></script>
     <script src="js/main.js"></script>
 </body>
+
 </html>

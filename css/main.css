@@ -39,3 +39,6 @@ a{
 .marginUp{
     margin-top: -30px;
 }
+.Borde{
+    border-left: 2px solid black;
+}
