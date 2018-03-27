@@ -1,3 +1,41 @@
-.contenedor{
-    height: 50%;
+body{
+    background-color: #f6f7f9;
+}
+.container{
+    border-radius: 10px;
+}
+.color{
+    background-color:#f6f7f9;
+}
+.size{
+    font-size: 50px;
+    color:#0e9c90;
+
+}
+h3{
+    color:#0e9c90;
+}
+span{
+    color:#353b4b;
+}
+#textarea2{
+    color:#353b4b;
+}
+#nombre,#apellido{
+    color:#353b4b;
+}
+.noMayusculas{
+    text-transform: initial;
+}
+.marginRight{
+    margin-right: 10px;
+}
+input[type=range] {
+  border: 1px solid;
+}
+a{
+    color:white;
+}
+.marginUp{
+    margin-top: -30px;
 }

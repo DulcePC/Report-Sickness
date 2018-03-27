@@ -7404,11 +7404,12 @@ input[type=range].focused:focus:not(.active)::-webkit-slider-thumb {
           box-shadow: 0 0 0 10px rgba(38, 166, 154, 0.26);
 }
 
-input[type=range] {
-  /* fix for FF unable to apply focus style bug  */
+/*input[type=range] {
+   fix for FF unable to apply focus style bug  
   border: 1px solid white;
-  /*required for proper track sizing in FF*/
+  required for proper track sizing in FF
 }
+*/
 
 input[type=range]::-moz-range-track {
   height: 3px;

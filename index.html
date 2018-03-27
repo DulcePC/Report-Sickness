@@ -7,13 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/materialize.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
     
     
 </head>
 <body>
-    <div class="container">
+    <h1 class="center flow-text size">Reportar enfermedades</h1>
+    <div class="container color">
         <div class="row">
-            <h1 class="center">Reportar enfermedades</h1>
             <form class="col s12 l12">
                 <div class="row">
                     <div class="input-field col s12 m6 l6">
@@ -25,18 +28,81 @@
                         <label for="last_name">Apellido</label>
                     </div>
                 </div>
+            </form>
+            <form class="col s12 l12 marginUp">
+                <h3>Sintomas</h3>
                 <div class="row">
-                    <div class="input-field col s12 m6 l6">
-                        <input type="text" id="autocomplete-input" class="autocomplete">
-                        <label for="autocomplete-input">Area de medicina</label>
-                    </div>
-                    <div class="col l6 s12">
-                        <p id="prueba"></p>
+                    <div class="col s12 m6 l6">
+                        <label>
+                            <input type="checkbox" class="checked">
+                            <span>Fiebre</span>
                         <p class="range-field">
                             <input type="range" id="test5" min="0" max="100" />
                         </p>
-                        <a class="btn" onclick="prueba()"></a>
+                        </label>
                     </div>
+                    <div class="col s12 m6 l6">
+                        <label>
+                            <input type="checkbox" class="checked">
+                            <span>Dolor de cabeza</span>
+                            <p class="range-field">
+                                <input type="range" id="test5" min="0" max="100" />
+                            </p>
+                        </label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 m6 l6">
+                        <label>
+                            <input type="checkbox" class="checked">
+                            <span>Mareos</span>
+                            <p class="range-field">
+                                <input type="range" id="test5" min="0" max="100" />
+                            </p>
+                        </label>
+                    </div>
+                    <div class="col s12 m6 l6">
+                        <label>
+                            <input type="checkbox" class="checked">
+                            <span>Dolor de musculos</span>
+                            <p class="range-field">
+                                <input type="range" id="test5" min="0" max="100" />
+                            </p>
+                        </label>
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="col s12 m6 l6">
+                            <label>
+                                <input type="checkbox" class="checked">
+                                <span>Vomitos</span>
+                                <p class="range-field">
+                                    <input type="range" id="test5" min="0" max="100" />
+                                </p>
+                            </label>
+                        </div>
+                        <div class="col s12 m6 l6">
+                            <label>
+                                <input type="checkbox" class="checked">
+                                <span>Fatiga</span>
+                                <p class="range-field">
+                                    <input type="range" id="test5" min="0" max="100" />
+                                </p>
+                            </label>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        
+                        <div class="input-field col s12 l12 m12 marginBottom">
+                            <textarea id="textarea2" class="materialize-textarea" data-length="120"></textarea>
+                            <label for="textarea2" id="textarea2">Describe lo que sientes:</label>
+                        </div>
+                        <button class="btn waves-effect waves-light right noMayusculas marginRight col s6 l2 m6" type="submit" name="action">
+                            <a><i class="material-icons right">send</i>Enviar</a>
+                        </button>
                 </div>
             </form>
         </div>
