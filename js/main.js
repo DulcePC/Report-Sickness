@@ -7,24 +7,31 @@ $('.chips-autocomplete').chips({
   placeholder: "Sintomas aqui:",  
   autocompleteOptions: {
     data: {
-      'Apple': null,
-      'Microsoft': null,
-      'Google': null
+      'Fiebre': null,
+      'Dolores Musculares': null,
+      'Dolor de cabeza': null,
+      'Vomitos':null,
+      'nauseas':null,
+      'Mareos':null,
+      'Vista borrosa': null,
+      'Dolores en los huesos':null,
+      'Tos':null,
+      'Diarrea':null,
+      'Dolor de estomago':null,
+      
     },
     limit: Infinity,
     minLength: 1,
   }
 });
 
-function cambia(){
-var slide=document.getElementsById(test5);
-if(slide === max ){
-document.div.style.backgroundColor=red;
-}else{
-  style.backgroundColor=green;
-}
-} 
-/*function prueba(){
-let cojer = document.getElementsByClassName('range-field').innerHTML;
-document.getElementById('prueba').innerHTML = "te sientes: " + cojer;
-}*/
+var connectSlider = document.getElementsByClassName('range-field');
+noUiSlider.create(connectSlider, {
+	start: 0,
+	connect: [true, false],
+	range: {
+	  'min': 0,
+	  'max': 100
+	}
+});
+
