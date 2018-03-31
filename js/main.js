@@ -4,7 +4,7 @@ $(document).ready(function() {
   $('.chips').chips();
 });
 $('.chips-autocomplete').chips({
-  placeholder: "Sintomas aqui:",  
+   
   autocompleteOptions: {
     data: {
       'Fiebre': null,
@@ -17,8 +17,7 @@ $('.chips-autocomplete').chips({
       'Dolores en los huesos':null,
       'Tos':null,
       'Diarrea':null,
-      'Dolor de estomago':null,
-      
+      'Dolor de estomago':null,   
     },
     limit: Infinity,
     minLength: 1,
