@@ -1,8 +1,8 @@
 $(document).ready(function() {
   $('.datepicker').datepicker();
   $('.timepicker').timepicker();
-  $('.chips').chips();
 });
+
 $('.chips-autocomplete').chips({
    
   autocompleteOptions: {
@@ -17,20 +17,10 @@ $('.chips-autocomplete').chips({
       'Dolores en los huesos':null,
       'Tos':null,
       'Diarrea':null,
-      'Dolor de estomago':null,   
+      'Dolor de estomago':null
     },
     limit: Infinity,
-    minLength: 1,
+    minLength: 1
+
   }
 });
-
-var connectSlider = document.getElementsByClassName('range-field');
-noUiSlider.create(connectSlider, {
-	start: 0,
-	connect: [true, false],
-	range: {
-	  'min': 0,
-	  'max': 100
-	}
-});
-
